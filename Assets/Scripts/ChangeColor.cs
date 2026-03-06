@@ -13,7 +13,7 @@ public class ChangeColor : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Paddle")
+        if (col.gameObject.tag == "Ball")
         {
             rend.sharedMaterial = material[1];
         }
