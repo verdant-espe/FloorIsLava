@@ -1,10 +1,10 @@
-using System.Collections;
+System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class BumpSound : MonoBehaviour
 {
-    [SerializeField] AudioClip bump;
-    [SerializeField] AudioClip crash;
+    [SerializeField] AudioClip klonoawahoo;
+    [SerializeField] AudioClip klonoahurt;
     AudioSource audio;
     void Start()
     {
@@ -12,13 +12,13 @@ public class BumpSound : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision) //Plays Sound Whenever collision detected
     {
-        if (collision.gameObject.tag == "peg")
+        if (collision.gameObject.tag == "panel")
         {
-            audio.PlayOneShot(bump);
+            audio.PlayOneShot(klonoawahoo);
         }
-        if (collision.gameObject.tag == "Platform")
+        if (collision.gameObject.tag == "domino")
         {
-            audio.PlayOneShot(crash);
+            audio.PlayOneShot(klonoahurt);
         }
         if (collision.gameObject.tag == "ramp")
         {
