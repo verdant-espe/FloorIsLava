@@ -6,6 +6,8 @@ MonoImporter:
   defaultReferences:
   - klonoawahoo: {fileID: 8300000, guid: 5958ca6367a629a4ca5f1e1b80051310, type: 3}
   - klonoahurt: {fileID: 8300000, guid: e46ebb52bfb80b24090249da58eb7361, type: 3}
+  - klonoarupa: {fileID: 8300000, guid: 1a099cd514854f44c8480595c21138c4, type: 3}
+  - Clink: {fileID: 8300000, guid: f14122bc03e612f429b8d70f9d18ba96, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

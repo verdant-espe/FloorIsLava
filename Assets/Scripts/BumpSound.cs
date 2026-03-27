@@ -1,9 +1,13 @@
+using
+System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-
 public class BumpSound : MonoBehaviour
 {
     [SerializeField] AudioClip klonoawahoo;
     [SerializeField] AudioClip klonoahurt;
+    [SerializeField] AudioClip klonoarupa;
+    [SerializeField] AudioClip Clink;
     AudioSource audio;
     void Start()
     {
@@ -15,13 +19,18 @@ public class BumpSound : MonoBehaviour
         {
             audio.PlayOneShot(klonoawahoo);
         }
-        if (collision.gameObject.tag == "Popka")
+        if (collision.gameObject.tag == "Yeowch")
         {
             audio.PlayOneShot(klonoahurt);
         }
-        if (collision.gameObject.tag == "ramp")
+        if (collision.gameObject.tag == "Ramp")
         {
-            audio.PlayOneShot(klonoawahoo);
+            audio.PlayOneShot(klonoarupa);
+        }
+
+        if (collision.gameObject.tag == "Panel")
+        {
+            audio.PlayOneShot(Clink);
         }
     }
 }

@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Ball
   - Platform1
-  - Popka
+  - Yeowch
+  - Ramp
+  - Panel
   layers:
   - Default
   - TransparentFX
