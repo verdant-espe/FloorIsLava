@@ -7,7 +7,13 @@ MonoImporter:
   - klonoawahoo: {fileID: 8300000, guid: 5958ca6367a629a4ca5f1e1b80051310, type: 3}
   - klonoahurt: {fileID: 8300000, guid: e46ebb52bfb80b24090249da58eb7361, type: 3}
   - klonoarupa: {fileID: 8300000, guid: 1a099cd514854f44c8480595c21138c4, type: 3}
+  - klonoamourn: {fileID: 8300000, guid: d7fd0430a26b7874b8c74f0034c3a288, type: 3}
+  - klonoatap: {fileID: 8300000, guid: 62a9b10a4cc7e0e4098864d0855cbc71, type: 3}
   - Clink: {fileID: 8300000, guid: f14122bc03e612f429b8d70f9d18ba96, type: 3}
+  - PlatformImpact: {fileID: 8300000, guid: 05e3b2129f6bf46458bbe7ae36035a8c, type: 3}
+  - PipePing: {fileID: 8300000, guid: 8c3505044385ca54d9173c713162d674, type: 3}
+  - TilePing: {fileID: 8300000, guid: f8b5ea158507e0c46a827602109d7903, type: 3}
+  - PlatformImpact2: {fileID: 8300000, guid: 01413e07b65160a4c9e99539002209c1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

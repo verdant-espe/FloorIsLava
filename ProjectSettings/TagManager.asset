@@ -9,6 +9,12 @@ TagManager:
   - Yeowch
   - Ramp
   - Panel
+  - Platform
+  - Platform2
+  - SpinnyCube
+  - Platform3
+  - Platform4
+  - Whirlpool
   layers:
   - Default
   - TransparentFX
