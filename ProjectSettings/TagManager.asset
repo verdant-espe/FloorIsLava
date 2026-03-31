@@ -15,6 +15,7 @@ TagManager:
   - Platform3
   - Platform4
   - Whirlpool
+  - LEC
   layers:
   - Default
   - TransparentFX

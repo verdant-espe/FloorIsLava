@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: eee5a1276ade78e46865ed5a1464ce83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - loloexplodes: {fileID: 8300000, guid: 7ffb4d2352fe16f4ba7b9fa45fce0e87, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
