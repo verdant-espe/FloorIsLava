@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a76f35b46af5ff4478a039c57fb0fd23
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ripghadius: {fileID: 8300000, guid: 0f6d944d42a1118498e22f5a756e65b4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

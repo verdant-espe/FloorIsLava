@@ -16,6 +16,7 @@ TagManager:
   - Platform4
   - Whirlpool
   - LEC
+  - Ghadius
   layers:
   - Default
   - TransparentFX
