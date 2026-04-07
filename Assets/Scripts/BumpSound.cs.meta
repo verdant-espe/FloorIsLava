@@ -14,6 +14,7 @@ MonoImporter:
   - PipePing: {fileID: 8300000, guid: 8c3505044385ca54d9173c713162d674, type: 3}
   - TilePing: {fileID: 8300000, guid: f8b5ea158507e0c46a827602109d7903, type: 3}
   - PlatformImpact2: {fileID: 8300000, guid: 01413e07b65160a4c9e99539002209c1, type: 3}
+  - ripghadius: {fileID: 8300000, guid: 0f6d944d42a1118498e22f5a756e65b4, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

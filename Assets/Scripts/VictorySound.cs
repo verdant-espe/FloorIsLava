@@ -1,10 +1,8 @@
-using
-System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-public class GhadiusDiesRIP : MonoBehaviour
+
+public class VictorySound : MonoBehaviour
 {
-    [SerializeField] AudioClip ripghadius;
+    [SerializeField] AudioClip victorysfx;
     AudioSource audio;
     void Start()
     {
@@ -12,9 +10,9 @@ public class GhadiusDiesRIP : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision) //Plays Sound Whenever collision detected
     {
-        if (collision.gameObject.tag == "Ghadius")
+        if (collision.gameObject.tag == "Ball")
         {
-            audio.PlayOneShot(ripghadius);
+            audio.PlayOneShot(victorysfx);
         }
     }
 }

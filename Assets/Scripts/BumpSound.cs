@@ -14,6 +14,7 @@ public class BumpSound : MonoBehaviour
     [SerializeField] AudioClip PipePing;
     [SerializeField] AudioClip TilePing;
     [SerializeField] AudioClip PlatformImpact2;
+    [SerializeField] AudioClip ripghadius;
     AudioSource audio;
     void Start()
     {
@@ -72,6 +73,11 @@ public class BumpSound : MonoBehaviour
         if (collision.gameObject.tag == "Platform4")
         {
             audio.PlayOneShot(PlatformImpact2);
+        }
+
+        if (collision.gameObject.tag == "Ghadius")
+        {
+            audio.PlayOneShot(ripghadius);
         }
     }
 }
